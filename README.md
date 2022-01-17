@@ -1,4 +1,4 @@
-# Kubeflow v1.4.1 中国镜像
+# Kubeflow v1.14.1 中国镜像
 
 由于国内网络问题，因此对于kubeflow源码安装的过程过于不友好。这里将kubeflow源码拉了下来，然后对代码中所有的gcr.io镜像进行了替换。
 官方源代码地址：https://github.com/kubeflow/manifests.git
