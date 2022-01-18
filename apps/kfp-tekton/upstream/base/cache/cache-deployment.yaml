@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: server
-        image: gcr.io/ml-pipeline/cache-server:dummy
+        image: registry.cn-zhangjiakou.aliyuncs.com/kubeflow-zhentian/cache-server:dummy
         env:
           - name: CACHE_IMAGE
             valueFrom:

@@ -8,5 +8,5 @@ resources:
   - metadata-envoy-service.yaml
   - metadata-grpc-sa.yaml
 images:
-  - name: gcr.io/ml-pipeline/metadata-envoy
+  - name: registry.cn-zhangjiakou.aliyuncs.com/kubeflow-zhentian/metadata-envoy
     newTag: 1.7.0

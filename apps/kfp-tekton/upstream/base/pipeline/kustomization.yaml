@@ -41,22 +41,22 @@ patchesStrategicMerge:
   - apiserver-deployment.yaml
   - metadata-writer-deployment.yaml
 images:
-  - name: gcr.io/ml-pipeline/api-server
+  - name: registry.cn-zhangjiakou.aliyuncs.com/kubeflow-zhentian/api-server
     newName: docker.io/aipipeline/api-server
     newTag: 1.0.0
-  - name: gcr.io/ml-pipeline/persistenceagent
+  - name: registry.cn-zhangjiakou.aliyuncs.com/kubeflow-zhentian/persistenceagent
     newName: docker.io/aipipeline/persistenceagent
     newTag: 1.0.0
-  - name: gcr.io/ml-pipeline/scheduledworkflow
+  - name: registry.cn-zhangjiakou.aliyuncs.com/kubeflow-zhentian/scheduledworkflow
     newName: docker.io/aipipeline/scheduledworkflow
     newTag: 1.0.0
-  - name: gcr.io/ml-pipeline/frontend
+  - name: registry.cn-zhangjiakou.aliyuncs.com/kubeflow-zhentian/frontend
     newName: docker.io/aipipeline/frontend
     newTag: 1.0.0
-  - name: gcr.io/ml-pipeline/viewer-crd-controller
+  - name: registry.cn-zhangjiakou.aliyuncs.com/kubeflow-zhentian/viewer-crd-controller
     newTag: 1.7.0
-  - name: gcr.io/ml-pipeline/visualization-server
+  - name: registry.cn-zhangjiakou.aliyuncs.com/kubeflow-zhentian/visualization-server
     newTag: 1.7.0
-  - name: gcr.io/ml-pipeline/metadata-writer
+  - name: registry.cn-zhangjiakou.aliyuncs.com/kubeflow-zhentian/metadata-writer
     newName: docker.io/aipipeline/metadata-writer
     newTag: 1.0.0

@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: main
-        image: gcr.io/ml-pipeline/metadata-writer:dummy
+        image: registry.cn-zhangjiakou.aliyuncs.com/kubeflow-zhentian/metadata-writer:dummy
         env:
         - name: NAMESPACE_TO_WATCH
           valueFrom:

@@ -49,8 +49,8 @@ DATA_CORRECT_CHILDREN = {
 DATA_MISSING_PIPELINE_ENABLED = {"parent": {}, "children": {}}
 
 # Default values when environments are not explicit
-DEFAULT_FRONTEND_IMAGE = "gcr.io/ml-pipeline/frontend"
-DEFAULT_VISUALIZATION_IMAGE = "gcr.io/ml-pipeline/visualization-server"
+DEFAULT_FRONTEND_IMAGE = "registry.cn-zhangjiakou.aliyuncs.com/kubeflow-zhentian/frontend"
+DEFAULT_VISUALIZATION_IMAGE = "registry.cn-zhangjiakou.aliyuncs.com/kubeflow-zhentian/visualization-server"
 
 # Variables used for environment variable sets
 VISUALIZATION_SERVER_IMAGE = "vis-image"

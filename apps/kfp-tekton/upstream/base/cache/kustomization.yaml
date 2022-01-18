@@ -9,6 +9,6 @@ resources:
 commonLabels:
   app: cache-server
 images:
-  - name: gcr.io/ml-pipeline/cache-server
+  - name: registry.cn-zhangjiakou.aliyuncs.com/kubeflow-zhentian/cache-server
     newName: docker.io/aipipeline/cache-server
     newTag: 1.0.0

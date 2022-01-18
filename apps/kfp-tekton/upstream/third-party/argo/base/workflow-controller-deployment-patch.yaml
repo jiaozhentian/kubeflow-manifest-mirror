@@ -7,12 +7,12 @@ spec:
     spec:
       containers:
         - name: workflow-controller
-          image: gcr.io/ml-pipeline/workflow-controller:v3.1.6-patch-license-compliance
+          image: registry.cn-zhangjiakou.aliyuncs.com/kubeflow-zhentian/workflow-controller:v3.1.6-patch-license-compliance
           args:
             - --configmap
             - workflow-controller-configmap
             - --executor-image
-            - gcr.io/ml-pipeline/argoexec:v3.1.6-patch-license-compliance
+            - registry.cn-zhangjiakou.aliyuncs.com/kubeflow-zhentian/argoexec:v3.1.6-patch-license-compliance
           resources:
             requests:
               cpu: 100m

@@ -6,5 +6,5 @@ resources:
   - metadata-writer-rolebinding.yaml
   - metadata-writer-sa.yaml
 images:
-  - name: gcr.io/ml-pipeline/metadata-writer
+  - name: registry.cn-zhangjiakou.aliyuncs.com/kubeflow-zhentian/metadata-writer
     newTag: 1.7.0
