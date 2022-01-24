@@ -51,11 +51,11 @@ def get_settings_from_env(controller_port=None,
 
     settings["visualization_server_image"] = \
         visualization_server_image or \
-        os.environ.get("VISUALIZATION_SERVER_IMAGE", "gcr.io/ml-pipeline/visualization-server")
+        os.environ.get("VISUALIZATION_SERVER_IMAGE", "registry.cn-zhangjiakou.aliyuncs.com/kubeflow-zhentian/visualization-server")
 
     settings["frontend_image"] = \
         frontend_image or \
-        os.environ.get("FRONTEND_IMAGE", "gcr.io/ml-pipeline/frontend")
+        os.environ.get("FRONTEND_IMAGE", "registry.cn-zhangjiakou.aliyuncs.com/kubeflow-zhentian/frontend")
 
     # Look for specific tags for each image first, falling back to
     # previously used KFP_VERSION environment variable for backwards
