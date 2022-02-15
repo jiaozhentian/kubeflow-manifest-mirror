@@ -67,7 +67,7 @@ Could not find CSRF cookie XSRF-TOKEN in the request. http://xx.xx.x.xxx/jupyter
 然后执行下面代码
 
 ```
-kubectl edit gateway/kubeflow-gateway -n kubeflow
+$ kubectl edit gateway/kubeflow-gateway -n kubeflow
 
 # Please edit the object below. Lines beginning with a '#' will be ignored,
 # and an empty file will abort the edit. If an error occurs while saving this file will be
