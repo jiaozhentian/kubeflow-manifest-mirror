@@ -54,7 +54,7 @@ while ! kubectl kustomize example | kubectl apply -f -; do echo "Retrying to app
 Could not find CSRF cookie XSRF-TOKEN in the request. http://xx.xx.x.xxx/jupyter/api/namespaces/kubeflow-user/notebooks
 ```
 
-其根本原因是每个component中启用了https认证，但是istio却没有启用https网关。因此解决思路有两种
+其根本原因是每个component中启用了https认证，但是istio却没有启用https网关。因此解决思路有两种(下面方法二者择其一即可)
 
 1. 关闭每个component中的https认证，尤其是在调试时
 
